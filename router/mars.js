@@ -38,7 +38,7 @@ router.get("/", async(req, res) => {
         message: "Ooopss, you can go to router"
     })
 })
-// Endpoint untuk melakukan permintaan ke API
+
 router.get('/marscode', async (req, res) => {
     try {
         const response = await axios({
