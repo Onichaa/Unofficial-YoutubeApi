@@ -9,6 +9,7 @@ router.set("json spaces", 2);
 
 router.use("/", index);
 router.use("/youtube", youtube);
+router.use("/mars", mars);
 
 router.listen(port, async() => {
     console.log(`Active Server on Port ${port}`);
