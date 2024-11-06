@@ -38,7 +38,7 @@ router.get("/", async(req, res) => {
     })
 })
 // Endpoint untuk melakukan permintaan ke API
-router.get('/api/marscode', async (req, res) => {
+router.get('/marscode', async (req, res) => {
     try {
         const response = await axios({
             url: "https://www.marscode.com/ide/65k0v9v2k5ryvl",
