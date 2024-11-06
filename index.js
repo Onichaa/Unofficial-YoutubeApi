@@ -5,7 +5,7 @@ const youtube = require("./router/youtube.js");
 const mars = require("./router/mars.js");
 const port = 8080;
 
-router.enable("trust proxy");
+//router.enable("trust proxy");
 router.set("json spaces", 2);
 
 router.use("/", index);
