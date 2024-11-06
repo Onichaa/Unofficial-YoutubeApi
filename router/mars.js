@@ -49,6 +49,7 @@ const headers = {
   "sec-fetch-dest": "empty",
   "sec-fetch-mode": "no-cors",
   "sec-fetch-site": "same-origin",
+  "traceparent": "03-156d8fb4328d61fe533db063d32242c8-9dfa8a78411d4a50-01",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
 };
 
