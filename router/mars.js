@@ -70,6 +70,7 @@ router.get('/marscode', async (req, res) => {
         
         // Mengirimkan data dari respons ke klien
         res.json(response.data);
+        console.log("sukses")
     } catch (error) {
         console.error(error);
         const errorMessage = error.response ? error.response.data : 'Terjadi kesalahan saat mengambil data.';
