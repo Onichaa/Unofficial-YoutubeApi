@@ -3,7 +3,7 @@ const router = express();
 const index = require("./router/index.js");
 const youtube = require("./router/youtube.js");
 const mars = require("./router/mars.js");
-const port = 8080;
+const port = 8086;
 
 //router.enable("trust proxy");
 router.set("json spaces", 2);
